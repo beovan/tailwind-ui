@@ -1,8 +1,14 @@
+import { UserProfile } from "./One/UserProfile";
+
  function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div className="flex h-screen 
+    w-full items-center
+     justify-center
+      bg-[#E6EFFA]">
+      <UserProfile />
+    </div>
+    
   )
 }
 export default App;
